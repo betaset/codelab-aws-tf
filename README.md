@@ -60,6 +60,14 @@ We will deploy the docker container with fargate
 and manage HTTP routing to forward requests from ALB to the service.
 Application logging is configured with cloudwatch logs.
 
+### lambda-service
+
+This is a sample web service running in lambda with nodejs.
+
+We will deploy the lambda function
+and manage HTTP routing to forward request from ALB to the service.
+Application logging is configured with cloudwatch logs.
+
 ## Deployment
 
 Each project in this repository brings a `ci/deploy-tf.sh`.

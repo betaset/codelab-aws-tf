@@ -20,6 +20,7 @@ RUN apt-get update \
     curl \
     git \
     unzip \
+    zip \
     python3-pip \
     build-essential \
     python3-dev \

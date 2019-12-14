@@ -1,0 +1,11 @@
+/fargate-service
+/lambda-service
+/pipeline-scripts
+/tfstate
+/vpc
+.git
+.gitignore
+.igor.sh
+.terraform
+LICENSE
+README.md

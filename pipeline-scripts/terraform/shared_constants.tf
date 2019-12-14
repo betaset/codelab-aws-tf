@@ -7,9 +7,9 @@ locals {
 
   # location of s3 bucket and dynamodb table for terraforms state bucket
   # do not use locals or variables here since this is evaluated by deployment script as well
-  tfstate_bucket_name = "betaset-global-tfstate"
+  tfstate_bucket_name = "betaset-codelab-global-tfstate"
   tfstate_bucket_region = "eu-central-1"
-  tfstate_dynamodb_table = "betaset-global-tfstate"
+  tfstate_dynamodb_table = "betaset-codelab-global-tfstate"
 
   default_name = "${var.stage}-${var.service}"
   dns_root_zone = "codelab.betaset.de"

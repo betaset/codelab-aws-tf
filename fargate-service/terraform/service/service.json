@@ -1,0 +1,24 @@
+[
+  {
+    "name": "service",
+    "image": "felixb/yocto-httpd",
+    "cpu": 256,
+    "memory": 512,
+    "essential": true,
+    "networkMode": "awsvpc",
+    "portMappings": [
+      {
+        "containerPort": 8080,
+        "hostPort": 8080
+      }
+    ],
+    "logConfiguration": {
+      "logDriver": "awslogs",
+      "options": {
+        "awslogs-group": "${LOG_GROUP}",
+        "awslogs-region": "${AWS_REGION}",
+        "awslogs-stream-prefix": "ecs"
+      }
+    }
+  }
+]

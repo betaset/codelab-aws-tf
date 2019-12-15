@@ -85,8 +85,6 @@ There is an [igor](https://github.com/felixb/igor) config in this repo.
 Igor makes it very simple to share a set of tools with the help of docker.
 You may want to install [igor](https://github.com/felixb/igor) and launch it in this repo to spawn a shell inside a docker container bringing all the tools needed.
 
-Run `docker build --pull -t codelab-aws-tf .` before launching igor to create the docker images referenced in the igor config.
-
 ## Further reading
 
 * [terraform](https://www.terraform.io/)
